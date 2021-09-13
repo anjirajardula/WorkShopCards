@@ -1,5 +1,7 @@
+package com.bridgelabz.deckcards;
+
 public class PlayCards {
-    public void uniqueCards() {
+    public void printCards() {
         String[] cards = new String[53];
         String[] suit = {"Club", "Diamond", "Heart", "Spade"};
         String[] rank = {"2", "3", "4", "5", "6", "7", "8", "9", "10", "Ace", "King", "Queen", "Jack"};
@@ -9,6 +11,7 @@ public class PlayCards {
 
                 cards[position] = suit[i] + rank[j];
                 System.out.println(cards[position] = suit[i] + " " + "->" + " " + rank[j]);
+                position++;
             }
         }
     }
