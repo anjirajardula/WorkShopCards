@@ -13,6 +13,7 @@ public class DecksOfCards {
         play.addPlayer();
         play.distributeCards();
         play.printCardList();
+        play.setPlayerSequence();
 
     }
 }
