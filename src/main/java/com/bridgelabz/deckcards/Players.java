@@ -17,6 +17,7 @@ public class Players {
     }
 
     public void setCardList(String card) {
+
         cardList.add(card);
     }
 
